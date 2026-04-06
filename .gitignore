@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+client/node_modules/
+backend/node_modules/
 
 # Environment files
 .env
@@ -19,6 +21,8 @@ pnpm-debug.log*
 coverage/
 .cache/
 .eslintcache
+client/dist/
+backend/dist/
 
 # OS files
 .DS_Store
